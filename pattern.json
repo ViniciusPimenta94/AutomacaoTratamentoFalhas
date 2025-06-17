@@ -1,0 +1,37 @@
+{
+	"Regex":{
+		"O.*id.*fornecedor.*conta.*aglutinada.*":"C:/Users/G053/Desktop/FALHAS/ID",
+		"Supplier.*Name.*fornecedor|CustomerCompanyName.*100":"C:/Users/G053/Desktop/FALHAS/Razão Social",
+		"Revis.*parser.*fatura":"C:/Users/G053/Desktop/FALHAS/Duplo Faturamento",
+		"could.*insert.*Contas.*\n.*|acesso.*superior.*caracteres|String.*truncated":"C:/Users/G053/Desktop/FALHAS/Conta +20",
+		"Error.*mapping.*types|acesso.*conta.*associa.*":"C:/Users/G053/Desktop/FALHAS/Conta Aglutinada",
+		"sistema.*fatura.*GED.*informado":"C:/Users/G053/Desktop/FALHAS/GED",
+		"Emiss.*maior.*Venc":"C:/Users/G053/Desktop/FALHAS/Emissão",
+		"InvalidBarCode.*":"C:/Users/G053/Desktop/FALHAS/Código de barras",
+		"pdf.*obrigat.*mapeamento.*":"C:/Users/G053/Desktop/FALHAS/Pdf não encontrado",
+		"Blob.Storage":"C:/Users/G053/Desktop/FALHAS/Blob Storage",
+		"Date.*menor.*caracteres|ReferenceDate.*válida":"C:/Users/G053/Desktop/FALHAS/DataReferencia",
+		"zip.*mensagens":"C:/Users/G053/Desktop/FALHAS/Vivo Conta Eletrônica",
+		"Nota.*fiscal.*caracteres|Nota.*fiscal.*linha":"C:/Users/G053/Desktop/FALHAS/NotaFiscal",
+		"Propriedades.*faturas.*preenchidas":"C:/Users/G053/Desktop/FALHAS/Parser",
+		"registro.*existe.*\n.*|fatura.*\n.*\n.*\n.*c.digo.*barras|could.*not.*batch|existe.*fatura.*barras":"C:/Users/G053/Desktop/FALHAS/Fatura TWM",
+		"Null.*\n.*FacilitiesInvoice":"C:/Users/G053/Desktop/FALHAS/Impostos",
+		"FebrabanCutException":"C:/Users/G053/Desktop/FALHAS/Febraban"
+	},
+	"Erros":{
+		"O.*id.*fornecedor.*conta.*aglutinada.*":"Id fornecedor diferente",
+		"Supplier.*Name.*fornecedor|CustomerCompanyName.*100":"Razão Social +100 caracteres",
+		"could.*insert.*Contas.*\n.*|String.*truncated":"Conta com +20 caracteres",
+		"Error.*mapping.*types|acesso.*conta.*associa.*":"Conta Aglutinada diferente da cadastrada",
+		"sistema.*fatura.*GED.*informado":"Conta Aglutinada diferente da cadastrada",
+		"Emiss.*maior.*Venc":"Data de emissão maior que vencimento",
+		"InvalidBarCode.*":"Cód de barras errado",
+		"Blob.Storage":"Falha na comunicação com Blob Storage",
+		"Date.*menor.*caracteres|ReferenceDate.*válida":"Mês ref não é data valida",
+		"zip.*mensagens":"Era esperado conter um zip entre as mensagens.",
+		"Nota.*fiscal.*caracteres|Nota.*fiscal.*linha":"Nota fiscal com +20 caracteres",
+		"registro.*existe.*\n.*|fatura.*\n.*\n.*\n.*c.digo.*barras|could.*not.*batch|existe.*fatura.*barras":"Fatura já está no TWM",
+		"Null.*\n.*FacilitiesInvoice":"Impostos",
+		"FebrabanCutException":"Febraban"
+	}
+}
