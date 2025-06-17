@@ -24,3 +24,43 @@ Instale os requisitos com:
 
 ```bash
 pip install pandas openpyxl patool
+```
+
+## ▶️ Como Executar
+
+- Exporte o CSV de falhas do Kibana para o local indicado no código (Downloads/Pesquisa Fatura NotOk.csv).
+
+- Execute o script principal:
+
+```bash
+python automacao_falhas.py
+```
+Os arquivos serão organizados e o relatório Falhas.xlsx será gerado com os erros classificados.
+
+## 🔍 Funcionalidades
+
+- Classificação automática por erro com base em regex (pattern.json).
+
+- Geração de relatório Excel com erros identificados.
+
+- Correção automática de arquivos .zip com falhas.
+
+- Registro de alterações em arquivos de observação (.txt).
+
+- Backup diário dos arquivos de falha processados.
+
+## 📂 Organização de Pastas
+
+O script organiza os arquivos em subpastas como:
+
+- `ID/`
+
+- `Conta Aglutinada/`
+
+- `NotaFiscal/`
+
+- `Parser/`
+
+- `GED/`
+
+Essas pastas são determinadas a partir dos padrões definidos no pattern.json.
