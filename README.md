@@ -64,3 +64,7 @@ O script organiza os arquivos em subpastas como:
 - `GED/`
 
 Essas pastas são determinadas a partir dos padrões definidos no pattern.json.
+
+## 🧾 Licença
+
+MIT
